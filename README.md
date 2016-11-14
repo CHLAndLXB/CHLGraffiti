@@ -9,4 +9,4 @@ pointView.backgroundColor = [UIColor whiteColor];
 [self.view addSubview:pointView];
 
 '效果图如下'
-```![](https://github.com/CHLAndLXB/CHLGraffiti/raw/master/CHLGraffiti/5555.gif)
+![](https://github.com/CHLAndLXB/CHLGraffiti/raw/master/CHLGraffiti/5555.gif)
