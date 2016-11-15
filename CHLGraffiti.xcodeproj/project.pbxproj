@@ -13,7 +13,6 @@
 		EEC085B21DD98ED800D1B398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC085B01DD98ED800D1B398 /* Main.storyboard */; };
 		EEC085B41DD98ED800D1B398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC085B31DD98ED800D1B398 /* Assets.xcassets */; };
 		EEC085B71DD98ED800D1B398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC085B51DD98ED800D1B398 /* LaunchScreen.storyboard */; };
-		EEC085C01DD98EE200D1B398 /* MWPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC085BF1DD98EE200D1B398 /* MWPointView.m */; };
 		EEC085C31DD9904500D1B398 /* CHLPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC085C21DD9904500D1B398 /* CHLPointView.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		EEC085B31DD98ED800D1B398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC085B61DD98ED800D1B398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC085B81DD98ED800D1B398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEC085BE1DD98EE200D1B398 /* MWPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPointView.h; sourceTree = "<group>"; };
-		EEC085BF1DD98EE200D1B398 /* MWPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPointView.m; sourceTree = "<group>"; };
 		EEC085C11DD9904500D1B398 /* CHLPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLPointView.h; sourceTree = "<group>"; };
 		EEC085C21DD9904500D1B398 /* CHLPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLPointView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,8 +61,6 @@
 		EEC085A61DD98ED800D1B398 /* CHLGraffiti */ = {
 			isa = PBXGroup;
 			children = (
-				EEC085BE1DD98EE200D1B398 /* MWPointView.h */,
-				EEC085BF1DD98EE200D1B398 /* MWPointView.m */,
 				EEC085C11DD9904500D1B398 /* CHLPointView.h */,
 				EEC085C21DD9904500D1B398 /* CHLPointView.m */,
 				EEC085AA1DD98ED800D1B398 /* AppDelegate.h */,
@@ -162,7 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC085AF1DD98ED800D1B398 /* ViewController.m in Sources */,
-				EEC085C01DD98EE200D1B398 /* MWPointView.m in Sources */,
 				EEC085AC1DD98ED800D1B398 /* AppDelegate.m in Sources */,
 				EEC085A91DD98ED800D1B398 /* main.m in Sources */,
 				EEC085C31DD9904500D1B398 /* CHLPointView.m in Sources */,
@@ -324,6 +318,7 @@
 				EEC085BD1DD98ED800D1B398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

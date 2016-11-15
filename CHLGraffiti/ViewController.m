@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MWPointView.h"
+#import "CHLPointView.h"
 @interface ViewController ()
 
 @end
@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    MWPointView * pointView = [[MWPointView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    CHLPointView * pointView = [[CHLPointView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     pointView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:pointView];
     
